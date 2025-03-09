@@ -1,0 +1,25 @@
+.container {
+  display: flex;
+  align-items: center;
+  padding: 0 1rem;
+  background-color: #f5f5f5;
+  border-radius: 0.5rem;
+
+  .input {
+    width: 100%;
+    border: 0;
+
+    &:focus {
+      outline: none;
+    }
+  }
+
+  .button {
+    margin-left: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: #406185;
+    box-shadow: none;
+    border: 0;
+    border-radius: 0.75rem;
+  }
+}

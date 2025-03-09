@@ -1,0 +1,53 @@
+@import "/src/styles/reset.scss";
+
+:root {
+  --background: #fefefe;
+  --foreground: #333;
+  --primary-color: #74639e;
+  --secondary-color: #b5c5b7;
+  --accent-color: #aea6cd;
+  --border-radius: 8px;
+  --shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+  background: var(--background);
+  color: var(--foreground);
+  font-family: "Inter", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  color: var(--primary-color);
+  text-decoration: none;
+  transition: color 0.3s ease;
+
+  &:hover {
+    color: var(--accent-color);
+  }
+}
+
+button {
+  background: var(--primary-color);
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: var(--border-radius);
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s ease;
+
+  &:hover {
+    background: var(--accent-color);
+    transform: scale(1.05);
+  }
+}

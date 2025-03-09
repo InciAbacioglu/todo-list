@@ -1,0 +1,19 @@
+.header {
+  width: 100%;
+  height: 80px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  gap: 6px;
+  background: #bfa6f1;
+  background: linear-gradient(
+    90deg,
+    #bfa6f1 0%,
+    #8ed9d3 29%,
+    #438bb0 61%,
+    #5f73dd 98%
+  );
+}
+.title {
+  color: #ffffff;
+}

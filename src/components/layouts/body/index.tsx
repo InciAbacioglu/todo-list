@@ -1,6 +1,6 @@
 import { ReactNode } from "react";
 
-import styles from "./b-ody.module.scss";
+import styles from "./body.module.scss";
 
 export interface BodyProps {
   className?: string;

@@ -4,7 +4,7 @@ export const Footer = () => {
   return (
     <div className={styles.footer}>
       <p> İnci Mercan Abacioğlu </p>
-      <Link href="https://github.com/incikboncuk26"> GitHub </Link>
+      <Link href="https://github.com/InciAbacioglu"> GitHub </Link>
     </div>
   );
 };
